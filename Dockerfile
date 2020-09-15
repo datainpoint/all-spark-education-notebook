@@ -15,6 +15,3 @@ RUN conda install nbgrader
 # More info at https://rise.readthedocs.io
 # Note: Installing RISE with --no-deps because all the neeeded deps are already present.
 RUN conda install rise
-
-# Add r-assertive to the image
-RUN conda install -c r r-assertive
