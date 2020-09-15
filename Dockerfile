@@ -15,3 +15,6 @@ RUN conda install nbgrader
 # More info at https://rise.readthedocs.io
 # Note: Installing RISE with --no-deps because all the neeeded deps are already present.
 RUN conda install rise
+
+# Add nbgitpuller
+RUN pip install nbgitpuller
