@@ -17,4 +17,4 @@ FROM jupyter/all-spark-notebook:6d42503c684f
 RUN conda install rise
 
 # Add nbgitpuller
-RUN pip install nbgitpuller
+RUN pip install nbgitpuller jupyter-resource-usage
